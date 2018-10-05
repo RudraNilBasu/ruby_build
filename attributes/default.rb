@@ -47,7 +47,7 @@ when 'debian'
   default['ruby_build']['install_pkgs_cruby'] =
     %w( autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev
         zlib1g-dev libsqlite3-dev libxml2-dev libxslt1-dev
-        libc6-dev libffi-dev libgdbm3 libgdbm-dev )
+        libc6-dev libffi-dev libgdbm5 libgdbm-dev )
   default['ruby_build']['install_pkgs_rbx'] =
     %w( libncurses5-dev llvm-3.4 llvm-3.4-dev libeditline-dev libedit-dev
       ) + node['ruby_build']['install_pkgs_cruby']
